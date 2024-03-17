@@ -1,0 +1,24 @@
+<body>
+    <h1>Buscar endereço</h1>
+    <div class="container">
+        <div class="CEP-container">
+            <label for="cep-input">CEP</label>
+            <input type="text" placeholder="Digite seu CEP" class="cep-input" [(ngModel)]="cep" (input)="filtrarInput($event)">
+            <button (click)="buscarEnderecoPorCep(cep)">Buscar</button>
+        </div>
+    
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="text" >
+                <h3>CEP: <strong>{{endereco?.cep}}</strong></h3>
+                <h3>Tipo de endereço: <strong>{{endereco?.address_type}}</strong></h3>
+                <h3>Nome do endereço: <strong>{{endereco?.address_name}}</strong></h3>
+                <h3>Endereço: <strong>{{endereco?.address}}</strong></h3>
+                <h3>UF: <strong>{{endereco?.state}}</strong></h3>
+                <h3>Distrito: <strong>{{endereco?.district}}</strong></h3>
+                <h3>Cidade: <strong>{{endereco?.city}}</strong></h3>
+                <h3>DDD: <strong>{{endereco?.ddd}}</strong></h3>
+            </div>
+        </fieldset>
+    </div>
+</body>

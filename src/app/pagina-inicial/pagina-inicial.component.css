@@ -1,0 +1,355 @@
+/* PC */
+@media screen and (min-width:1024px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #555555;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .container {
+        margin-top: 2rem;
+        background-color: #F3F3F3;
+        box-shadow: 5px 5px 15px grey;
+        border-radius: 10px;
+        width: 50%;
+        height: 20rem;
+    }
+    
+    .CEP-container {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .CEP-container button {
+        background-color: #00A3FF;
+        color: white;
+        height: 2.2rem;
+        width: 4rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .CEP-container button:hover {
+        background-color: #038fe0;
+        transform: scale(1.1);
+    }
+    
+    label {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .cep-input {
+        margin-left: 1rem;
+        background: transparent;
+        border: solid 2px black;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        height: 2rem;
+        text-indent: 0.5rem;
+    }
+    
+    legend {
+        margin-left: 1.5rem;
+    }
+    
+    fieldset {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 13rem;
+        border-radius: 5px;
+    }
+    
+    .text {
+        margin-left: 1rem;
+    }
+    
+    .text h3 {
+        font-weight: 100;
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+}
+
+/* TABLET */
+@media  screen and (min-width:481px) and (max-width:1024px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #555555;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .container {
+        margin-top: 2rem;
+        background-color: #F3F3F3;
+        box-shadow: 5px 5px 15px grey;
+        border-radius: 10px;
+        width: 80%;
+        height: 20rem;
+    }
+    
+    .CEP-container {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .CEP-container button {
+        background-color: #00A3FF;
+        color: white;
+        height: 2.2rem;
+        width: 4rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .CEP-container button:hover {
+        background-color: #038fe0;
+        transform: scale(1.1);
+    }
+    
+    label {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .cep-input {
+        margin-left: 1rem;
+        background: transparent;
+        border: solid 2px black;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        height: 2rem;
+        text-indent: 0.5rem;
+    }
+    
+    legend {
+        margin-left: 1.5rem;
+    }
+    
+    fieldset {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 13rem;
+        border-radius: 5px;
+    }
+    
+    .text {
+        margin-left: 1rem;
+    }
+    
+    .text h3 {
+        font-size: 1rem;
+        margin-top: 0.3rem;
+        font-weight: 100;
+    }
+}
+
+/* CELULAR */
+@media screen and (min-width:320px) and (max-width:480px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #555555;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .container {
+        margin-top: 2rem;
+        background-color: #F3F3F3;
+        box-shadow: 5px 5px 15px grey;
+        border-radius: 10px;
+        width: 90%;
+        height: 23rem;
+    }
+    
+    .CEP-container {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .CEP-container button {
+        background-color: #00A3FF;
+        color: white;
+        height: 2.2rem;
+        width: 4rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .CEP-container button:hover {
+        background-color: #038fe0;
+        transform: scale(1.1);
+    }
+    
+    label {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .cep-input {
+        margin-left: 1rem;
+        background: transparent;
+        border: solid 2px black;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        height: 2rem;
+        width: 8.5rem;
+        text-indent: 0.5rem;
+    }
+    
+    legend {
+        margin-left: 1.5rem;
+    }
+    
+    fieldset {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 16rem;
+        border-radius: 5px;
+    }
+    
+    .text {
+        margin-left: 1rem;
+        
+    }
+    
+    .text h3 {
+        font-size: 1rem;
+        margin-top: 0.40rem;
+        font-weight: 100;
+    }
+}
+
+/* Outros */
+@media  screen and (max-width:280px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: #555555;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .container {
+        margin-top: 2rem;
+        background-color: #F3F3F3;
+        box-shadow: 5px 5px 15px grey;
+        border-radius: 10px;
+        width: 95%;
+        height: 20rem;
+    }
+    
+    .CEP-container {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .CEP-container button {
+        background-color: #00A3FF;
+        color: white;
+        height: 2.2rem;
+        width: 4rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .CEP-container button:hover {
+        background-color: #038fe0;
+        transform: scale(1.1);
+    }
+    
+    label {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .cep-input {
+        margin-left: 1rem;
+        background: transparent;
+        border: solid 2px black;
+        border-radius: 5px;
+        margin-right: 0.5rem;
+        width: 5rem;
+        height: 2rem;
+        text-indent: 0.5rem;
+    }
+    
+    legend {
+        margin-left: 1.5rem;
+    }
+    
+    fieldset {
+        margin-left: 1rem;
+        height: 13rem;
+        width: 13.5rem;
+        border-radius: 5px;
+    }
+    
+    .text {
+        margin-left: 1rem;
+    }
+    
+    .text h3 {
+        font-size: 0.85rem;
+        margin-top: 0.25rem;
+        font-weight: 100;
+    }
+}
